@@ -7,6 +7,12 @@ android {
     namespace = "com.example.recipesbymama"
     compileSdk = 36
 
+    //ViewBinding Asignado.
+
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.recipesbymama"
         minSdk = 24
