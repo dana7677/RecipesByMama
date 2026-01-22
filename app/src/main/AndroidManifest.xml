@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RecipesByMama">
         <activity
+            android:name=".WeeklyDiet"
+            android:exported="false" />
+        <activity
+            android:name=".NewRecipe"
+            android:exported="false" />
+        <activity
+            android:name=".MyRecipes"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
